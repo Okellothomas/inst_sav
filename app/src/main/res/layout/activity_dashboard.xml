@@ -45,6 +45,12 @@
 
 
         </com.google.android.material.tabs.TabLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/include"
+            android:id="@+id/framentconfirm"/>
     </RelativeLayout>
 
 </androidx.drawerlayout.widget.DrawerLayout>
